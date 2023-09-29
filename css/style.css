@@ -1,0 +1,33 @@
+#tituloPagina{
+    display: flexbox;
+    height: 20vh;
+    width: auto;
+    padding-left: 30px;
+    padding-top: 10vh;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+@media (max-width:354px) {
+    #tituloPagina{
+        padding-top: 0%;
+        height: auto;
+    }
+}
+ul {
+    list-style: none;
+    justify-content: space-evenly;
+    
+}
+li {
+    display: inline;
+    justify-content: space-evenly;
+}
+main {
+    margin-left: 30px;
+}
+body {
+    width: auto;
+}
