@@ -118,6 +118,10 @@ aside div {
     border-radius: 10px;
     text-align: center;
 }
+#fotoBarbi {
+   max-height: 562px;
+   max-width: 422px;
+}
 footer {
     display: flex;
     background-color: #D08E73;
@@ -139,8 +143,5 @@ footer {
         width: auto;
         height: 711px;
     }
-    #fotoBarbi {
-        width: auto;
-        height: 711px;
-    }
 }
+
