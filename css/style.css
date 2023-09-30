@@ -1,7 +1,5 @@
 *{
-    padding: 0;
     margin: 0;
-    border: 0;
     box-sizing: border-box;
 }
 header {
@@ -14,6 +12,10 @@ header {
     height: 20vh;
     width: 100vw;
 }
+#tituloImp {
+    font-size:larger;
+
+}
 header img {
     height: fit-content
 }
@@ -22,14 +24,37 @@ nav {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: space-around;
-    
+    background-color: #D08E73;
+    padding: #D08E73;
+}
+#botonNav {
+    padding-left: 40vw;
+    padding-right: 40vw;
+}
+.nav-link {
+    color: #f0e6dc
+}
+nav div {
+    background-color: #D08E73;
 }
 nav a {
+    display: flex;
+    justify-content: space-around;
     text-decoration: none;
     color: #f0e6dc;
     border: 2px none #f0e6dc;
     border-radius: 10px;
     padding: 5px;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+#laNavegacion {
+    padding: 0 0 0 0;
+    color: #f0e6dc
 }
 main{
 width: 100vw;

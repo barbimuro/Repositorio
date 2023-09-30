@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BarbiesPage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -13,16 +13,25 @@
             <div class="row" id="principio">
                 <img class="col-6" src="./assets/img/Black Minimalist Fashion Studio Logo-2.png" alt="logo barbi">
                 <div class="col-6" id="tituloPagina">
-                    <p>Style studio by BM</p>
+                    <p id="tituloImp">Style studio by BM</p>
                 </div>
             </div>
         </div>
-                <nav class="col-12">
-                        <a href="#">INICIO</a>
-                        <a href="#">SOBRE NOSOTROS</a>
-                        <a href="#">CONTACTANOS</a>
-                        <a href="#">OCASIONES ESPECIALES</a> 
-                </nav>   
+        <nav id="laNavegacion" class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button id="botonNav" class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" aria-current="page" href="#">INICIO</a>
+                  <a class="nav-link" href="#">SOBRE NOSOTROS</a>
+                  <a class="nav-link" href="#">CONTACANOS</a>
+                  <a class="nav-link" href="#">OCASIONES ESPECIALES</a>
+                </div>
+              </div>
+            </div>
+          </nav> 
     </header>
     <main class="col-12">
         <h1>La belleza empieza adentro</h1>
