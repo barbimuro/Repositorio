@@ -28,14 +28,23 @@ nav {
     justify-content: space-evenly;
     align-items: space-around;
     background-color: #D08E73;
-    padding: #D08E73;
+
 }
 #botonNav {
     padding-left: 40vw;
     padding-right: 40vw;
 }
 .nav-link {
-    color: #f0e6dc
+    color: #f0e6dc;
+    padding: 5px !important;
+    border: #f0e6dc solid 1px;
+
+}
+
+div.navbar-nav {
+    width: 100vw;
+    justify-content: space-evenly;
+
 }
 nav div {
     background-color: #D08E73;
@@ -59,6 +68,9 @@ nav a {
     padding: 0 0 0 0;
     color: #f0e6dc
 }
+#botonNav {
+    margin-left: 45vw !important;
+}
 main{
 background-color: #f0e6dc;
 }
@@ -66,8 +78,8 @@ main img {
     width: 500px;
     height: auto;
     position: center;
-
 }
+
 #articulo {
     padding-left:  20px;
 }
@@ -78,6 +90,45 @@ div.conteiner {
 div.row {
     margin: 0;
     padding: 0;
+}
+aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 7fr 1fr;
+    grid-template-areas: 
+    ". . . . ."
+    ". div1 div2 div3 ."
+    ". . . . ."
+    ;
+    gap: 25px;
+}
+#div1 {
+    grid-area: div1;
+}
+#div1 img {
+    height: 145px;
+    width: auto;
+}
+#div2 {
+    grid-area: div2;
+}
+#div2 img {
+    height: 145px;
+    width: auto;
+}
+#div3 {
+    grid-area: div3;
+}
+#div3 img {
+    height: 145px;
+    width: auto;
+}
+.values {
+    width: auto;
+    height: 200px;
+    border: #D08E73 1px solid;
+    border-radius: 10px;
+    text-align: center;
 }
 footer {
     display: flex;
@@ -94,4 +145,14 @@ footer {
 #logo2 {
     height: 15vh;
     width: auto;
+}
+@media (min-width: 1707px) {
+    #fotoArticulo {
+        width: auto;
+        height: 711px;
+    }
+    #fotoBarbi {
+        width: auto;
+        height: 711px;
+    }
 }
