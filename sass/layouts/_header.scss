@@ -1,0 +1,65 @@
+header {
+    background-color: $colorSecundario;
+    color: $colorPrincipal;
+
+#principio {
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 20vh;
+    width: 100vw;
+}
+#logo1 {
+    height: 15vh;
+    width: auto;
+}
+#tituloImp {
+    font-size:larger;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: space-around;
+    background-color: $colorSecundario;
+}
+#botonNav {
+    padding-left: 40vw;
+    padding-right: 40vw;
+}
+.nav-link {
+    color: $colorPrincipal;
+    padding: 5px !important;
+    border: $colorPrincipal solid 1px;
+}
+div.navbar-nav {
+    width: 100vw;
+    justify-content: space-evenly;
+}
+nav div {
+    background-color: $colorSecundario;
+}
+nav a {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: $colorPrincipal;
+    border: 2px none $colorPrincipal;
+    border-radius: 10px;
+    padding: 5px;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+#laNavegacion {
+    padding: 0 0 0 0;
+    color: $colorPrincipal;
+}
+#botonNav {
+    margin-left: 45vw !important;
+}
+}

@@ -1,0 +1,14 @@
+body {
+    background-color: $colorPrincipal;
+}
+#indexMain {
+    article{
+        aside {
+            display: flex;
+            flex-wrap: wrap;
+            img{
+                height: 130px;
+                }
+            }
+        }
+    }

@@ -1,0 +1,15 @@
+footer {
+    background-color: $colorSecundario;
+    height: 20vh;
+    width: 100vw;
+    #logo2 {
+        height: 18vh;
+        width: auto;
+    }
+    p {
+       text-align: center;
+       text-justify:distribute;
+       color: $colorPrincipal;
+       padding-top: 9vh;
+    }
+}
