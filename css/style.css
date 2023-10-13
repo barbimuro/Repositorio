@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+}
+
 header {
   background-color: #D08E73;
   color: #f0e6dc;
@@ -70,11 +76,22 @@ body {
 #indexMain article aside {
   display: flex;
   flex-wrap: wrap;
+  box-sizing: border-box;
+}
+#indexMain article aside div {
+  border: solid 1px #D08E73;
+  border-radius: 10px;
+  margin: 5px;
 }
 #indexMain article aside img {
   height: 130px;
 }
 
+@media (min-width: 475px) {
+  #indexMain article aside div {
+    width: 30%;
+  }
+}
 footer {
   background-color: #D08E73;
   height: 20vh;
@@ -105,6 +122,13 @@ footer p {
 #contactoMain form {
   padding-right: 10px;
   padding-left: 10px;
+}
+#contactoMain form button {
+  background-color: #D08E73;
+  color: #f0e6dc;
+  border-radius: 10px;
+  border: solid 1px #f0e6dc;
+  margin-top: 7px;
 }
 
 /*# sourceMappingURL=style.css.map */
