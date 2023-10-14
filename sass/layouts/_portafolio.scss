@@ -1,0 +1,33 @@
+#portafolioMain {
+    padding: 0 !important;
+    #tituloPortafolio {
+        width: 100vw;
+        height: 20vh;
+        background-image: linear-gradient($colorSecundario, $colorSecundario, $colorPrincipal);
+        color: $colorPrincipal;
+        text-align: center;
+       padding-top: 30px !important;
+    }
+    #fotoPortafolioUno {
+        @media (min-width: 770px) {
+          width: 380px;
+          height: auto;  
+        }
+    }
+    #fotoPortafolioDos {
+        
+     @media (min-width: 987px) {
+        height: 483px;
+        width: auto;
+     }
+    }
+    .row {
+        margin: 10px !important;
+    }
+    img:hover{
+        transform: scale(1.1);
+        transition: 3s;
+    }
+    
+}
+

@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box !important;
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 header {
@@ -131,18 +131,59 @@ footer p {
   margin-top: 7px;
 }
 
+#ocasionesMain {
+  padding: 0 !important;
+}
 #ocasionesMain #tituloOcasiones {
   height: 20vh;
   background-image: linear-gradient(#D08E73, #F9DDCF);
   color: #f0e6dc;
   text-align: center;
-  padding: 0 !important;
 }
 #ocasionesMain #tituloOcasiones h1 {
   padding-top: 20px;
 }
 #ocasionesMain .card {
   background-color: #f0e6dc;
+}
+#ocasionesMain button {
+  margin: 20px !important;
+  background-image: linear-gradient(#D08E73, #D08E99);
+  border: none;
+  border-radius: 100px;
+  color: #f0e6dc;
+  padding: 5px 15px 5px 15px !important;
+}
+
+#portafolioMain {
+  padding: 0 !important;
+}
+#portafolioMain #tituloPortafolio {
+  width: 100vw;
+  height: 20vh;
+  background-image: linear-gradient(#D08E73, #D08E73, #f0e6dc);
+  color: #f0e6dc;
+  text-align: center;
+  padding-top: 30px !important;
+}
+@media (min-width: 770px) {
+  #portafolioMain #fotoPortafolioUno {
+    width: 380px;
+    height: auto;
+  }
+}
+@media (min-width: 987px) {
+  #portafolioMain #fotoPortafolioDos {
+    height: 483px;
+    width: auto;
+  }
+}
+#portafolioMain .row {
+  margin: 10px !important;
+}
+#portafolioMain img:hover {
+  transform: scale(1.1);
+  transition: 3s;
 }
 
 /*# sourceMappingURL=style.css.map */
