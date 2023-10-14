@@ -131,4 +131,18 @@ footer p {
   margin-top: 7px;
 }
 
+#ocasionesMain #tituloOcasiones {
+  height: 20vh;
+  background-image: linear-gradient(#D08E73, #F9DDCF);
+  color: #f0e6dc;
+  text-align: center;
+  padding: 0 !important;
+}
+#ocasionesMain #tituloOcasiones h1 {
+  padding-top: 20px;
+}
+#ocasionesMain .card {
+  background-color: #f0e6dc;
+}
+
 /*# sourceMappingURL=style.css.map */
