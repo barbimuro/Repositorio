@@ -1,4 +1,7 @@
 #portafolioMain {
+    div {
+        
+    }
     padding: 0 !important;
     #tituloPortafolio {
         width: 100vw;
@@ -9,16 +12,20 @@
        padding-top: 30px !important;
     }
     #fotoPortafolioUno {
+        width: 100vw;
         @media (min-width: 770px) {
           width: 380px;
           height: auto;  
         }
+
     }
     #fotoPortafolioDos {
-        
+        width: inherit;
      @media (min-width: 987px) {
         height: 483px;
         width: auto;
+        justify-content: center !important;
+        justify-items: center !important;
      }
     }
     .row {

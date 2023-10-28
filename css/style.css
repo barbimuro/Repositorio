@@ -77,6 +77,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
+  gap: 2px !important;
 }
 #indexMain article aside div {
   border: solid 1px #D08E73;
@@ -166,16 +167,24 @@ footer p {
   text-align: center;
   padding-top: 30px !important;
 }
+#portafolioMain #fotoPortafolioUno {
+  width: 100vw;
+}
 @media (min-width: 770px) {
   #portafolioMain #fotoPortafolioUno {
     width: 380px;
     height: auto;
   }
 }
+#portafolioMain #fotoPortafolioDos {
+  width: inherit;
+}
 @media (min-width: 987px) {
   #portafolioMain #fotoPortafolioDos {
     height: 483px;
     width: auto;
+    justify-content: center !important;
+    justify-items: center !important;
   }
 }
 #portafolioMain .row {
