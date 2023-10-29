@@ -13,14 +13,13 @@
     .card {
         background-color: $colorPrincipal;
     }
-    #botonContacto {
+    button {
         margin: 20px !important;
         background-image: linear-gradient($colorSecundario,$colorCuatro);
         border: none;
         border-radius: 100px;
         color: $colorPrincipal;
         padding: 5px 15px 5px 15px !important;
-       
        }
        div {
         img {

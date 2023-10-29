@@ -4,6 +4,22 @@
   padding: 0 !important;
 }
 
+footer {
+  background-color: #D08E73;
+  height: 20vh;
+  width: 100vw;
+}
+footer #logo2 {
+  height: 18vh;
+  width: auto;
+}
+footer p {
+  text-align: center;
+  text-justify: distribute;
+  color: #f0e6dc;
+  padding-top: 9vh;
+}
+
 header {
   background-color: #D08E73;
   color: #f0e6dc;
@@ -69,22 +85,6 @@ header #botonNav {
   margin-left: 45vw !important;
 }
 
-footer {
-  background-color: #D08E73;
-  height: 20vh;
-  width: 100vw;
-}
-footer #logo2 {
-  height: 18vh;
-  width: auto;
-}
-footer p {
-  text-align: center;
-  text-justify: distribute;
-  color: #f0e6dc;
-  padding-top: 9vh;
-}
-
 #contactoMain #info {
   text-align: center;
   padding-top: 50px;
@@ -132,7 +132,7 @@ footer p {
 #ocasionesMain .card {
   background-color: #f0e6dc;
 }
-#ocasionesMain #botonContacto {
+#ocasionesMain button {
   margin: 20px !important;
   background-image: linear-gradient(#D08E73, #D08E99);
   border: none;
@@ -240,18 +240,17 @@ body {
   height: 130px;
 }
 
-button {
-  margin: 20px !important;
-  background-image: linear-gradient(#D08E73, #D08E99);
-  border: none;
-  border-radius: 100px;
-  color: #f0e6dc;
-  padding: 5px 15px 5px 15px !important;
-}
-
 @media (min-width: 475px) {
   #indexMain article aside div {
     width: 30%;
+  }
+  button {
+    margin: 20px !important;
+    background-image: linear-gradient(#D08E73, #D08E99);
+    border: none;
+    border-radius: 100px;
+    color: #f0e6dc;
+    padding: 5px 15px 5px 15px !important;
   }
 }
 article div div img {
