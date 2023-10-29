@@ -35,6 +35,12 @@
         transform: scale(1.1);
         transition: 3s;
     }
-    
+    #tituloFinal {
+        width: 100vw;
+        height: 20vh;
+        background-image: linear-gradient($colorPrincipal, $colorSecundario, $colorSecundario);
+        color: $colorPrincipal;
+        text-align: center;
+    }
 }
 

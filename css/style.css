@@ -69,45 +69,6 @@ header #botonNav {
   margin-left: 45vw !important;
 }
 
-body {
-  background-color: #f0e6dc;
-}
-
-#indexMain article aside {
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  gap: 2px !important;
-}
-#indexMain article aside div {
-  border: solid 2px #D08E99;
-  border-radius: 10px;
-  margin: 5px;
-  background-color: #F9DDCF;
-}
-#indexMain article aside img {
-  height: 130px;
-}
-
-@media (min-width: 475px) {
-  #indexMain article aside div {
-    width: 30%;
-  }
-}
-article div div img {
-  width: inherit;
-}
-
-@media (min-width: 992px) {
-  article div div img {
-    width: 20vw;
-  }
-}
-@media (min-width: 1389px) {
-  article aside img {
-    height: 578px;
-  }
-}
 footer {
   background-color: #D08E73;
   height: 20vh;
@@ -171,7 +132,7 @@ footer p {
 #ocasionesMain .card {
   background-color: #f0e6dc;
 }
-#ocasionesMain button {
+#ocasionesMain #botonContacto {
   margin: 20px !important;
   background-image: linear-gradient(#D08E73, #D08E99);
   border: none;
@@ -231,6 +192,13 @@ footer p {
   transform: scale(1.1);
   transition: 3s;
 }
+#portafolioMain #tituloFinal {
+  width: 100vw;
+  height: 20vh;
+  background-image: linear-gradient(#f0e6dc, #D08E73, #D08E73);
+  color: #f0e6dc;
+  text-align: center;
+}
 
 #sobreNosotrosMain article aside {
   background-image: linear-gradient(#D08E99, #D08E73);
@@ -244,6 +212,62 @@ footer p {
 }
 #sobreNosotrosMain article aside div img {
   width: inherit;
+}
+
+@media (min-width: 1032px) {
+  #fotoBarbi {
+    height: 645px;
+    width: auto;
+  }
+}
+body {
+  background-color: #f0e6dc;
+}
+
+#indexMain article aside {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  gap: 2px !important;
+}
+#indexMain article aside div {
+  border: solid 2px #D08E99;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: #F9DDCF;
+}
+#indexMain article aside img {
+  height: 130px;
+}
+
+button {
+  margin: 20px !important;
+  background-image: linear-gradient(#D08E73, #D08E99);
+  border: none;
+  border-radius: 100px;
+  color: #f0e6dc;
+  padding: 5px 15px 5px 15px !important;
+}
+
+@media (min-width: 475px) {
+  #indexMain article aside div {
+    width: 30%;
+  }
+}
+article div div img {
+  width: inherit;
+}
+
+@media (min-width: 992px) {
+  article div div img {
+    width: 20vw;
+  }
+}
+@media (min-width: 1389px) {
+  #fotoArticulo {
+    height: 578px;
+    width: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

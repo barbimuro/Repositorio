@@ -23,10 +23,19 @@ body {
             }
         }
     }
+  button {
+    margin: 20px !important;
+    background-image: linear-gradient($colorSecundario,$colorCuatro);
+    border: none;
+    border-radius: 100px;
+    color: $colorPrincipal;
+    padding: 5px 15px 5px 15px !important;
+  }
 @media (min-width: 475px) {
     #indexMain article aside div {
         width: 30%;
     }
+    
    
 }
 article div div img {
@@ -38,7 +47,9 @@ article div div img {
     }
 }
 @media (min-width: 1389px) {
-    article aside img {
+    #fotoArticulo{
         height: 578px;
+        width: auto;
     }
-}
+   
+} 
