@@ -1,0 +1,17 @@
+#sobreNosotrosMain {
+    article {
+        aside {
+            background-image: linear-gradient($colorCuatro, $colorSecundario);
+            div{
+                p {
+                    color: $colorPrincipal;
+                    padding-left: 5px !important;
+                }
+                flex-wrap: wrap;
+                img {
+                  width: inherit;  
+                }
+            }
+        }
+    }
+}

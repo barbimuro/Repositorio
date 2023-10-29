@@ -80,9 +80,10 @@ body {
   gap: 2px !important;
 }
 #indexMain article aside div {
-  border: solid 1px #D08E73;
+  border: solid 2px #D08E99;
   border-radius: 10px;
   margin: 5px;
+  background-color: #F9DDCF;
 }
 #indexMain article aside img {
   height: 130px;
@@ -91,6 +92,20 @@ body {
 @media (min-width: 475px) {
   #indexMain article aside div {
     width: 30%;
+  }
+}
+article div div img {
+  width: inherit;
+}
+
+@media (min-width: 992px) {
+  article div div img {
+    width: 20vw;
+  }
+}
+@media (min-width: 1389px) {
+  article aside img {
+    height: 578px;
   }
 }
 footer {
@@ -131,6 +146,15 @@ footer p {
   border: solid 1px #f0e6dc;
   margin-top: 7px;
 }
+#contactoMain h2 {
+  color: #D08E99;
+}
+#contactoMain h3 {
+  color: #D08E99;
+}
+#contactoMain h4 {
+  color: #D08E99;
+}
 
 #ocasionesMain {
   padding: 0 !important;
@@ -155,7 +179,20 @@ footer p {
   color: #f0e6dc;
   padding: 5px 15px 5px 15px !important;
 }
+#ocasionesMain div img {
+  width: inherit;
+}
 
+@media (min-width: 768px) {
+  #ocasionesMain div img {
+    width: 30vw;
+  }
+}
+@media (min-width: 956px) {
+  #ocasionesMain div img {
+    width: 319px;
+  }
+}
 #portafolioMain {
   padding: 0 !important;
 }
@@ -193,6 +230,20 @@ footer p {
 #portafolioMain img:hover {
   transform: scale(1.1);
   transition: 3s;
+}
+
+#sobreNosotrosMain article aside {
+  background-image: linear-gradient(#D08E99, #D08E73);
+}
+#sobreNosotrosMain article aside div {
+  flex-wrap: wrap;
+}
+#sobreNosotrosMain article aside div p {
+  color: #f0e6dc;
+  padding-left: 5px !important;
+}
+#sobreNosotrosMain article aside div img {
+  width: inherit;
 }
 
 /*# sourceMappingURL=style.css.map */

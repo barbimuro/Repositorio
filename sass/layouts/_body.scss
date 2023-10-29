@@ -9,9 +9,10 @@ body {
             box-sizing: border-box;
             gap: 2px !important;
             div {
-                border: solid  1px $colorSecundario;
+                border: solid  2px $colorCuatro;
                 border-radius: 10px;
                 margin: 5px;
+                background-color: $colorTres;
         
                
             }
@@ -25,5 +26,19 @@ body {
 @media (min-width: 475px) {
     #indexMain article aside div {
         width: 30%;
+    }
+   
+}
+article div div img {
+    width: inherit;
+}
+@media (min-width: 992px) {
+    article div div img {
+        width: 20vw;
+    }
+}
+@media (min-width: 1389px) {
+    article aside img {
+        height: 578px;
     }
 }
